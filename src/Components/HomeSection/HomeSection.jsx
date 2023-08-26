@@ -1,4 +1,4 @@
-import ProfileImage from "../../utils/Pictures/Profile.jpg";
+import ProfileImage from "../../utils/Pictures/profile.jpg";
 const HomeSection = () => {
   return (
     <div className=" justify-evenly space-y-3 p-2 sm:flex">
