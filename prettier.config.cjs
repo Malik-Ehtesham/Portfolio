@@ -1,4 +1,8 @@
 // prettier.config.js
-export default {
-  plugins: ["prettier-plugin-tailwindcss"],
+
+module.exports = {
+  // Your Prettier configuration options here plugins: ["prettier-plugin-tailwindcss"],
+  singleQuote: true,
+  trailingComma: 'es5',
+  // Add more options as needed
 };

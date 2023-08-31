@@ -7,13 +7,13 @@ const Navbar = () => {
     
         <ul className="flex space-x-4 sm:space-x-8 ">
           <li>
-            <Link to="/" className=" cursor-pointer hover:underline hover:text-orange-400">Home</Link>
+            <Link to="/" className=" cursor-pointer hover:underline hover:text-red-500">Home</Link>
           </li>
           <li>
-            <Link to="/projects" className=" cursor-pointer hover:underline  hover:text-orange-400">Projects</Link>
+            <Link to="/projects" className=" cursor-pointer hover:underline  hover:text-red-500">Projects</Link>
           </li>
           <li>
-            <Link to="/skills" className="cursor-pointer hover:underline  hover:text-orange-400">Skills</Link>
+            <Link to="/skills" className="cursor-pointer hover:underline  hover:text-red-500">Skills</Link>
           </li>
         </ul>
       
