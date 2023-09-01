@@ -3,7 +3,7 @@ import MongoDb from '../../utils/Icons/MongoDb.png';
 import nodeJs from '../../utils/Icons/nodeJs.png';
 import Tailwind from '../../utils/Icons/Tailwind.png';
 import ExpressJS from '../../utils/Icons/ExpressJS.png';
-import reactJs from '../../utils/Icons/reactjs.png';
+import reactJs from '../../utils/Icons/reactJs.png';
 import Bootstrap from '../../utils/Icons/Bootstrap.png';
 import Canva from '../../utils/Icons/Canva.png';
 const SkillsSection = () => {
