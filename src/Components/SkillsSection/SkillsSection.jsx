@@ -8,7 +8,7 @@ import Bootstrap from '../../utils/Icons/Bootstrap.png';
 import Canva from '../../utils/Icons/Canva.png';
 const SkillsSection = () => {
   return (
-    <div className="flex justify-around  flex-wrap overflow-auto gap-x-40 gap-y-5  m-3">
+    <div className="flex justify-around  flex-wrap overflow-auto gap-y-5 ">
       <SkillCard image={MongoDb} title="MongoDB" />
       <SkillCard image={ExpressJS} title="ExpressJS" />
       <SkillCard image={reactJs} title="ReactJS" />

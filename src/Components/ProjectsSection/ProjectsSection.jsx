@@ -7,7 +7,7 @@ import Weather from '../../utils/ProjectsImages/Weather.jpg';
 
 const ProjectsSection = () => {
   return (
-    <div className="flex justify-around  flex-wrap overflow-auto gap-x-40 gap-y-5 ">
+    <div className="flex justify-around  flex-wrap overflow-auto gap-y-5 ">
       <ProjectCard
         image={ecommerce}
         title="E-Commerce App"
