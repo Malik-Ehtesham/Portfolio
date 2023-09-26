@@ -23,7 +23,7 @@ import ReactJS from '../../utils/Icons/reactJs.png';
 import NextJS from '../../utils/Icons/NextJS.png';
 import NodeJS from '../../utils/Icons/nodeJs.png';
 import ExpressJS from '../../utils/Icons/ExpressJS.png';
-import MongoDB from '../../utils/Icons/MongoDB.png';
+import MongoDB from '../../utils/Icons/MongoDb.png';
 // import { SliderUtility } from '../../utils/Functions/SliderUtility';
 import SkillCard from '../SkillCard/SkillCard';
 
