@@ -1,13 +1,10 @@
-import Footer from '../../Components/Footer/Footer';
-import Navbar from '../../Components/Navbar/Navbar';
-import ProjectsSection from '../../Components/ProjectsSection/ProjectsSection';
+import AllProjectsSection from '../../Components/AllProjectsSection/AllProjectsSection';
 
 const Projects = () => {
   return (
-    <div className="font-balooBhai flex h-screen flex-col justify-between">
-      <Navbar />
-      <ProjectsSection />
-      <Footer />
+    <div>
+      {' '}
+      <AllProjectsSection />{' '}
     </div>
   );
 };

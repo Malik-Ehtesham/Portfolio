@@ -1,18 +1,23 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Containers/Home/Home';
+// import About from './Containers/About/About';
+// import Footer from './Components/Footer/Footer';
+// import Navbar from './Components/Navbar/Navbar';
+// import Contact from './Containers/Contact/Contact';
+import { Route, Routes } from 'react-router';
 import Projects from './Containers/Projects/Projects';
-import Skills from './Containers/Skills/Skills';
+
 // import ContactMe from './Containers/ContactMe/ContactMe';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/skills" element={<Skills />} />
-      {/* <Route path="/contactme" element={<ContactMe />} /> */}
-    </Routes>
+    <>
+      <Routes className="relative font-balooBhai">
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </>
   );
 }
 

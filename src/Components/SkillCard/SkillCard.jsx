@@ -2,13 +2,14 @@ import './SkillCard.css';
 
 const SkillCard = (props) => {
   return (
-    <div className="container flex flex-col justify-around items-center  rounded-xl w-36 h-56 sm:w-48 sm:h-60">
-      <div className="box  w-36 h-56 sm:w-48 sm:h-60">
-        <img src={props.image} className="m-auto w-32 sm:w-40 rounded-xl" />
-        <p className="text-xl text-bold text-center text-red-500 ">
-          {props.title}
-        </p>
-      </div>
+    <div className="mx-10 h-40 transition ease-in hover:-translate-y-1 hover:scale-110 duration-150 bg-red-50 w-36 shadow-md shadow-red-400 p-2 rounded-lg flex justify-center  items-center flex-col ">
+      <img
+        src={props.image}
+        className=" rounded-1 h-28 w-28"
+        // style={{ width: '100%', height: '100%' }}
+        alt="..."
+      />
+      <p className="text-black text-center my-2 font-bold ">{props.title}</p>
     </div>
   );
 };

@@ -1,21 +1,25 @@
-import ProjectCard from '../ProjectCard/ProjectCard';
-
 import ecommerce from '../../utils/ProjectsImages/e-commerce.png';
 import Github from '../../utils/ProjectsImages/Github.svg';
 import Portfolio from '../../utils/ProjectsImages/Portfolio.png';
-
-import ButtonImage from '../../utils/Icons/Button.png';
+import Weather from '../../utils/ProjectsImages/Weather.jpg';
+import Home from '../../utils/Icons/Home.png';
+import ProjectCard from '../ProjectCard/ProjectCard';
 import { Link } from 'react-router-dom';
 
-const ProjectsSection = () => {
+const AllProjectsSection = () => {
   return (
     <>
-      <p
-        className="text-red-600 font-black text-center text-4xl sm:text-5xl mt-5 mb-20"
-        id="projects"
-      >
-        MY PROJECTS
-      </p>
+      <div className="bg-rose-600 p-4 mb-10">
+        <Link
+          to="/"
+          className="  btn btn-circle btn-error transition ease-in   hover:-translate-y-1 hover:scale-110 duration-300 "
+        >
+          <img src={Home} />
+        </Link>
+        <p className="text-white  font-black text-center text-4xl sm:text-5xl  mb-10">
+          PROJECTS
+        </p>
+      </div>
       <div className="flex justify-around  flex-wrap overflow-auto gap-y-5  items-center my-5">
         <ProjectCard
           image={ecommerce}
@@ -31,19 +35,15 @@ const ProjectsSection = () => {
           image={Portfolio}
           title="Personal Portfolio"
           link="https://portfolio-ehtesham.vercel.app/"
+        />{' '}
+        <ProjectCard
+          image={Weather}
+          title="Wather App"
+          link="https://whimsical-klepon-62143a.netlify.app/"
         />
-      </div>
-      <div className="flex justify-center  md:justify-end px-7 my-3 md:me-14">
-        <Link
-          to="/projects"
-          className="btn btn-lg btn-outline btn-error rounded-full  "
-        >
-          See All
-          <img src={ButtonImage} className="w-14 ms-2" />
-        </Link>
       </div>
     </>
   );
 };
 
-export default ProjectsSection;
+export default AllProjectsSection;
