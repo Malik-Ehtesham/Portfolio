@@ -19,12 +19,12 @@ import Css from '../../utils/Icons/Css.webp';
 import Javascript from '../../utils/Icons/Javascript.png';
 import Bootstrap from '../../utils/Icons/Bootstrap.png';
 import TailwindCss from '../../utils/Icons/Tailwind.png';
-import ReactJS from '../../utils/Icons/ReactJs.png';
+import ReactJS from '../../utils/Icons/reactJs.png';
 import NextJS from '../../utils/Icons/NextJS.png';
-import NodeJS from '../../utils/Icons/NodeJS.png';
+import NodeJS from '../../utils/Icons/nodeJs.png';
 import ExpressJS from '../../utils/Icons/ExpressJS.png';
 import MongoDB from '../../utils/Icons/MongoDB.png';
-import { SliderUtility } from '../../utils/Functions/SliderUtility';
+// import { SliderUtility } from '../../utils/Functions/SliderUtility';
 import SkillCard from '../SkillCard/SkillCard';
 
 const Slider = () => {
