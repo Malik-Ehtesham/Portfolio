@@ -7,7 +7,7 @@ const HomeSection = () => {
   return (
     <div
       id="Home"
-      className=" justify-center sm:justify-evenly sm:flex-row space-y-3 p-2 pb-36 sm:pb-2 flex flex-col overflow-auto text-neutral-50 h-screen  items-center mb-5"
+      className=" justify-center sm:justify-evenly sm:flex-row space-y-3 p-2 pb-32 sm:pb-2 flex flex-col overflow-auto text-neutral-50 h-screen  items-center mb-5"
     >
       <div className="flex justify-center">
         <img
