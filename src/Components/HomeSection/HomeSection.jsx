@@ -6,8 +6,8 @@ import './HomeSection.css';
 const HomeSection = () => {
   return (
     <div
-      id="hero"
-      className=" justify-center sm:justify-evenly sm:flex-row space-y-3 p-2 flex flex-col overflow-auto text-neutral-50 min-h-screen  items-center my-5"
+      id="Home"
+      className=" justify-center sm:justify-evenly sm:flex-row space-y-3 p-2 pb-36 sm:pb-2 flex flex-col overflow-auto text-neutral-50 h-screen  items-center mb-5"
     >
       <div className="flex justify-center">
         <img
@@ -40,7 +40,7 @@ const HomeSection = () => {
             Download CV
           </button>
           <Link
-            to="contact"
+            to="Contact"
             spy={true}
             smooth={true}
             className="btn btn-neutral text-white hidden md:inline  rounded-full btn-md p-4"

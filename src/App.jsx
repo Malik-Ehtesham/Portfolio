@@ -13,7 +13,7 @@ import Projects from './Containers/Projects/Projects';
 function App() {
   return (
     <>
-      <Routes className="relative font-balooBhai">
+      <Routes className=" font-balooBhai">
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>

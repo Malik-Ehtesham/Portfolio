@@ -12,7 +12,7 @@ const AllProjectsSection = () => {
       <div className="bg-rose-600 p-4 mb-10">
         <Link
           to="/"
-          className="  btn btn-circle btn-error transition ease-in   hover:-translate-y-1 hover:scale-110 duration-300 "
+          className="  btn btn-circle btn-error transition ease-in   hover:-translate-y-1 hover:scale-110 duration-150 "
         >
           <img src={Home} />
         </Link>

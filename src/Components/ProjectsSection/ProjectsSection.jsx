@@ -11,8 +11,8 @@ const ProjectsSection = () => {
   return (
     <>
       <p
-        className="text-red-600 font-black text-center text-4xl sm:text-5xl mt-5 mb-20"
-        id="projects"
+        className="text-red-600 font-black text-center text-4xl sm:text-5xl  mb-20 mt-5"
+        id="About"
       >
         MY PROJECTS
       </p>
