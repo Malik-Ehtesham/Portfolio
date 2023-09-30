@@ -4,7 +4,7 @@ import ContactForm from '../ContactForm/ContactForm';
 
 const ContactSection = () => {
   return (
-    <div id="Contact">
+    <div id="Contact" className="my-20">
       <p className="text-red-600 font-black text-center text-5xl  mt-20 sm:mb-10">
         Contact Me
       </p>
